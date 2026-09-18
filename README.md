@@ -29,3 +29,5 @@ Windows 测试人声来自系统自带的离线英语语音，需要安装英语
 `apps/api`、`apps/web` 和 `packages/shared` 预留服务化与前端边界。本阶段没有实现 FastAPI HTTP 服务、Celery/Redis 分布式幂等、持久化或收费模型。
 
 执行依据：`project/Visora_MVP_Execution_Spec.md`。测试结果与实现解释见 `project/LOCAL_VALIDATION_REPORT.md`。不得直接向 main 提交；推送前运行测试。
+
+完整实施任务见 [实施路线图](project/IMPLEMENTATION_ROADMAP.md)；[Jira 任务源数据](project/JIRA_BACKLOG.json) 定义范围、验收与依赖，[实际 Jira 编号](project/JIRA_CREATED.json) 保存同步结果。

@@ -1,0 +1,739 @@
+{
+  "project": "VIS",
+  "baseline_commit": "26811ac",
+  "items": [
+    {
+      "id": "E01",
+      "key": "VIS-1",
+      "summary": "工程基础与零成本管线验证",
+      "type": "Epic",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": null,
+      "blocked_by": [],
+      "url": "https://growth-more.atlassian.net/browse/VIS-1"
+    },
+    {
+      "id": "E02",
+      "key": "VIS-2",
+      "summary": "FastAPI 服务、数据持久化与素材管理",
+      "type": "Epic",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": null,
+      "blocked_by": [],
+      "url": "https://growth-more.atlassian.net/browse/VIS-2"
+    },
+    {
+      "id": "E03",
+      "key": "VIS-3",
+      "summary": "可靠异步调度、幂等与版本失效",
+      "type": "Epic",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": null,
+      "blocked_by": [],
+      "url": "https://growth-more.atlassian.net/browse/VIS-3"
+    },
+    {
+      "id": "E04",
+      "key": "VIS-4",
+      "summary": "AI Director、结构化分镜与音频优先",
+      "type": "Epic",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": null,
+      "blocked_by": [],
+      "url": "https://growth-more.atlassian.net/browse/VIS-4"
+    },
+    {
+      "id": "E05",
+      "key": "VIS-5",
+      "summary": "商品保真与关键帧生产",
+      "type": "Epic",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": null,
+      "blocked_by": [],
+      "url": "https://growth-more.atlassian.net/browse/VIS-5"
+    },
+    {
+      "id": "E06",
+      "key": "VIS-6",
+      "summary": "真实 I2V Provider 与质量成本验证",
+      "type": "Epic",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": null,
+      "blocked_by": [],
+      "url": "https://growth-more.atlassian.net/browse/VIS-6"
+    },
+    {
+      "id": "E07",
+      "key": "VIS-7",
+      "summary": "生产级 FFmpeg 后期与媒体验收",
+      "type": "Epic",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": null,
+      "blocked_by": [],
+      "url": "https://growth-more.atlassian.net/browse/VIS-7"
+    },
+    {
+      "id": "E08",
+      "key": "VIS-8",
+      "summary": "Next.js 视频制作工作台",
+      "type": "Epic",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": null,
+      "blocked_by": [],
+      "url": "https://growth-more.atlassian.net/browse/VIS-8"
+    },
+    {
+      "id": "E09",
+      "key": "VIS-9",
+      "summary": "额度、账单与商业化",
+      "type": "Epic",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": null,
+      "blocked_by": [],
+      "url": "https://growth-more.atlassian.net/browse/VIS-9"
+    },
+    {
+      "id": "E10",
+      "key": "VIS-10",
+      "summary": "端到端验收、运维与发布",
+      "type": "Epic",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": null,
+      "blocked_by": [],
+      "url": "https://growth-more.atlassian.net/browse/VIS-10"
+    },
+    {
+      "id": "BASE-01",
+      "key": "VIS-11",
+      "summary": "落位 Pydantic 契约与音频优先时间轴调度",
+      "type": "Task",
+      "status": "Done",
+      "status_category": "done",
+      "parent": "VIS-1",
+      "blocked_by": [],
+      "url": "https://growth-more.atlassian.net/browse/VIS-11"
+    },
+    {
+      "id": "BASE-02",
+      "key": "VIS-12",
+      "summary": "实现本地 Mock Provider、单进程状态机与重抽验证",
+      "type": "Task",
+      "status": "Done",
+      "status_category": "done",
+      "parent": "VIS-1",
+      "blocked_by": [
+        "VIS-11"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-12"
+    },
+    {
+      "id": "BASE-03",
+      "key": "VIS-13",
+      "summary": "验证本地 FFmpeg 混音、转场与输出规格",
+      "type": "Task",
+      "status": "Done",
+      "status_category": "done",
+      "parent": "VIS-1",
+      "blocked_by": [
+        "VIS-11",
+        "VIS-12"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-13"
+    },
+    {
+      "id": "BASE-04",
+      "key": "VIS-14",
+      "summary": "搭建开发环境、容器基础设施与 CI 检查",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-1",
+      "blocked_by": [],
+      "url": "https://growth-more.atlassian.net/browse/VIS-14"
+    },
+    {
+      "id": "API-01",
+      "key": "VIS-15",
+      "summary": "设计 PostgreSQL 模型并建立数据库迁移",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-2",
+      "blocked_by": [
+        "VIS-11",
+        "VIS-14"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-15"
+    },
+    {
+      "id": "API-02",
+      "key": "VIS-16",
+      "summary": "实现项目、创意与分镜 CRUD 和确认接口",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-2",
+      "blocked_by": [
+        "VIS-15",
+        "VIS-19"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-16"
+    },
+    {
+      "id": "API-03",
+      "key": "VIS-17",
+      "summary": "实现素材存储抽象、安全上传与签名访问",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-2",
+      "blocked_by": [
+        "VIS-15",
+        "VIS-19"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-17"
+    },
+    {
+      "id": "API-04",
+      "key": "VIS-18",
+      "summary": "实现任务进度、错误反馈与成片下载 API",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-2",
+      "blocked_by": [
+        "VIS-16",
+        "VIS-17"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-18"
+    },
+    {
+      "id": "API-05",
+      "key": "VIS-19",
+      "summary": "接入身份认证与项目级权限隔离",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-2",
+      "blocked_by": [
+        "VIS-15"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-19"
+    },
+    {
+      "id": "JOB-01",
+      "key": "VIS-20",
+      "summary": "部署 Celery Worker 与分阶段任务队列",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-3",
+      "blocked_by": [
+        "VIS-14",
+        "VIS-15"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-20"
+    },
+    {
+      "id": "JOB-02",
+      "key": "VIS-21",
+      "summary": "实现跨进程幂等、事务投递与重复请求保护",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-3",
+      "blocked_by": [
+        "VIS-20",
+        "VIS-16"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-21"
+    },
+    {
+      "id": "JOB-03",
+      "key": "VIS-22",
+      "summary": "实现任务重试、超时、取消及回调版本校验",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-3",
+      "blocked_by": [
+        "VIS-21"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-22"
+    },
+    {
+      "id": "JOB-04",
+      "key": "VIS-23",
+      "summary": "实现编辑级联失效与单镜头重抽服务",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-3",
+      "blocked_by": [
+        "VIS-22",
+        "VIS-17"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-23"
+    },
+    {
+      "id": "JOB-05",
+      "key": "VIS-24",
+      "summary": "完成零额度服务化端到端与故障恢复验收",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-3",
+      "blocked_by": [
+        "VIS-23",
+        "VIS-18"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-24"
+    },
+    {
+      "id": "AI-01",
+      "key": "VIS-25",
+      "summary": "实现 AI Director 三套创意方案生成",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-4",
+      "blocked_by": [
+        "VIS-16",
+        "VIS-21"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-25"
+    },
+    {
+      "id": "AI-02",
+      "key": "VIS-26",
+      "summary": "实现四场景结构化分镜与脚本文字预算",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-4",
+      "blocked_by": [
+        "VIS-25",
+        "VIS-11"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-26"
+    },
+    {
+      "id": "AI-03",
+      "key": "VIS-27",
+      "summary": "接入 TTS、实测音频长度与句级字幕",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-4",
+      "blocked_by": [
+        "VIS-26",
+        "VIS-17"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-27"
+    },
+    {
+      "id": "AI-04",
+      "key": "VIS-28",
+      "summary": "实现有界台词改写与全片音频预算适配",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-4",
+      "blocked_by": [
+        "VIS-27",
+        "VIS-23"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-28"
+    },
+    {
+      "id": "IMG-01",
+      "key": "VIS-29",
+      "summary": "实现商品抠图与原始保真素材管理",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-5",
+      "blocked_by": [
+        "VIS-17",
+        "VIS-20"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-29"
+    },
+    {
+      "id": "IMG-02",
+      "key": "VIS-30",
+      "summary": "实现首个真实 Image Provider 与场景融合",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-5",
+      "blocked_by": [
+        "VIS-29",
+        "VIS-33",
+        "VIS-26"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-30"
+    },
+    {
+      "id": "IMG-03",
+      "key": "VIS-31",
+      "summary": "实现关键帧逐镜头审核、确认与重生成",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-5",
+      "blocked_by": [
+        "VIS-30",
+        "VIS-23"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-31"
+    },
+    {
+      "id": "IMG-04",
+      "key": "VIS-32",
+      "summary": "建立商品保真审核标准与前背景降级素材",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-5",
+      "blocked_by": [
+        "VIS-29",
+        "VIS-31"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-32"
+    },
+    {
+      "id": "VID-01",
+      "key": "VIS-33",
+      "summary": "核实首发模型能力、可用端点与实际费用",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-6",
+      "blocked_by": [
+        "VIS-12"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-33"
+    },
+    {
+      "id": "VID-02",
+      "key": "VIS-34",
+      "summary": "实现首个真实 I2V Provider 与安全回调",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-6",
+      "blocked_by": [
+        "VIS-33",
+        "VIS-22",
+        "VIS-31"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-34"
+    },
+    {
+      "id": "VID-03",
+      "key": "VIS-35",
+      "summary": "实现视频能力适配、内容缓存与精准裁剪",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-6",
+      "blocked_by": [
+        "VIS-34",
+        "VIS-28"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-35"
+    },
+    {
+      "id": "VID-04",
+      "key": "VIS-36",
+      "summary": "完成首条真实广告样片与质量成本实测",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-6",
+      "blocked_by": [
+        "VIS-35",
+        "VIS-39",
+        "VIS-48"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-36"
+    },
+    {
+      "id": "POST-01",
+      "key": "VIS-37",
+      "summary": "将 FFmpeg Composer 接入隔离的生产渲染任务",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-7",
+      "blocked_by": [
+        "VIS-13",
+        "VIS-20",
+        "VIS-17"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-37"
+    },
+    {
+      "id": "POST-02",
+      "key": "VIS-38",
+      "summary": "完善句级字幕、Logo 与 CTA 品牌模板",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-7",
+      "blocked_by": [
+        "VIS-37",
+        "VIS-27"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-38"
+    },
+    {
+      "id": "POST-03",
+      "key": "VIS-39",
+      "summary": "实现 2.5D 商品前景保真降级合成",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-7",
+      "blocked_by": [
+        "VIS-37",
+        "VIS-32",
+        "VIS-34"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-39"
+    },
+    {
+      "id": "POST-04",
+      "key": "VIS-40",
+      "summary": "完成混音听感、媒体规格与回归验收",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-7",
+      "blocked_by": [
+        "VIS-38",
+        "VIS-39",
+        "VIS-28"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-40"
+    },
+    {
+      "id": "WEB-01",
+      "key": "VIS-41",
+      "summary": "确定制作工作台交互流程并搭建 Next.js 基础",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-8",
+      "blocked_by": [
+        "VIS-14",
+        "VIS-19"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-41"
+    },
+    {
+      "id": "WEB-02",
+      "key": "VIS-42",
+      "summary": "实现项目列表、商品上传与制作参数表单",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-8",
+      "blocked_by": [
+        "VIS-41",
+        "VIS-16",
+        "VIS-17"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-42"
+    },
+    {
+      "id": "WEB-03",
+      "key": "VIS-43",
+      "summary": "实现三套创意选择与分镜脚本编辑确认",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-8",
+      "blocked_by": [
+        "VIS-42",
+        "VIS-16"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-43"
+    },
+    {
+      "id": "WEB-04",
+      "key": "VIS-44",
+      "summary": "实现关键帧审核看板与生成确认门禁",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-8",
+      "blocked_by": [
+        "VIS-43",
+        "VIS-23"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-44"
+    },
+    {
+      "id": "WEB-05",
+      "key": "VIS-45",
+      "summary": "实现实时制作进度、重抽、播放器与下载",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-8",
+      "blocked_by": [
+        "VIS-44",
+        "VIS-18",
+        "VIS-23"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-45"
+    },
+    {
+      "id": "WEB-06",
+      "key": "VIS-46",
+      "summary": "完成 Mock 工作台端到端与可用性验收",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-8",
+      "blocked_by": [
+        "VIS-45",
+        "VIS-24"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-46"
+    },
+    {
+      "id": "BILL-01",
+      "key": "VIS-47",
+      "summary": "实现额度账户、预占与可审计费用流水",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-9",
+      "blocked_by": [
+        "VIS-15",
+        "VIS-21"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-47"
+    },
+    {
+      "id": "BILL-02",
+      "key": "VIS-48",
+      "summary": "实现生成费用预估、预算硬上限与熔断",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-9",
+      "blocked_by": [
+        "VIS-47",
+        "VIS-33"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-48"
+    },
+    {
+      "id": "BILL-03",
+      "key": "VIS-49",
+      "summary": "接入 Stripe 测试模式支付与幂等回调",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-9",
+      "blocked_by": [
+        "VIS-47",
+        "VIS-19"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-49"
+    },
+    {
+      "id": "BILL-04",
+      "key": "VIS-50",
+      "summary": "实现账户额度、消费明细与购买界面",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-9",
+      "blocked_by": [
+        "VIS-48",
+        "VIS-49",
+        "VIS-41"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-50"
+    },
+    {
+      "id": "OPS-01",
+      "key": "VIS-51",
+      "summary": "建立任务追踪、成本指标与告警",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-10",
+      "blocked_by": [
+        "VIS-22",
+        "VIS-47"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-51"
+    },
+    {
+      "id": "OPS-02",
+      "key": "VIS-52",
+      "summary": "建立预发布部署、密钥管理与回滚流程",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-10",
+      "blocked_by": [
+        "VIS-14",
+        "VIS-20",
+        "VIS-17",
+        "VIS-41"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-52"
+    },
+    {
+      "id": "OPS-03",
+      "key": "VIS-53",
+      "summary": "实现素材保留清理、数据备份与恢复演练",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-10",
+      "blocked_by": [
+        "VIS-17",
+        "VIS-22",
+        "VIS-52"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-53"
+    },
+    {
+      "id": "OPS-04",
+      "key": "VIS-54",
+      "summary": "完成 MVP 全链路验收与上线清单",
+      "type": "Task",
+      "status": "To Do",
+      "status_category": "new",
+      "parent": "VIS-10",
+      "blocked_by": [
+        "VIS-46",
+        "VIS-36",
+        "VIS-40",
+        "VIS-50",
+        "VIS-51",
+        "VIS-52",
+        "VIS-53"
+      ],
+      "url": "https://growth-more.atlassian.net/browse/VIS-54"
+    }
+  ]
+}
