@@ -149,6 +149,10 @@ activemq-data/
 
 # Environments
 .env
+.env.*
+!.env.example
+artifacts/
+.tools/
 .envrc
 .venv
 env/
